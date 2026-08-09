@@ -286,18 +286,16 @@ ul, ol {
     margin-bottom: 8px;
 }
 
-@media screen and (max-width: 320px) {
-    .wrapper {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-        display: flex;
-
-    }
-
-    .sidebar_content {
+@media screen and (max-width: 900px) {
+     .wrapper {
+          flex-direction: column;
+     }
+     .sidebar {
+         width: 100%;
+         display: flex;
+     }
+    
+    .skills{
         display: flex;
     }
 
@@ -306,4 +304,78 @@ ul, ol {
         height: 100%;
     }
 
-}
+    .contacts-container {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .skills_container {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    
+    .main_content{
+        padding: 30px;
+    }
+ }
+
+@media screen and (max-width: 600px) {
+     .sidebar {
+         flex-direction: column;
+     }
+     .my-photo {
+         width: 100%;
+     }
+     .sidebar_content {
+         margin-top: 20px;
+     }
+
+    .contacts_title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .skills_title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .my_name {
+       font-size: 30px; 
+    }
+
+    .my_profession {
+        margin-bottom: 10px;
+    }
+
+    .main_content {
+        margin-bottom: 30px;
+    }
+
+    .work_expeience_title {
+        font-size: 18px;
+    }
+
+    .my_projects_title {
+        font-size: 18px;
+    }
+
+
+    .my_projects_container {
+        margin-bottom: 30px;
+    }
+
+    .education {
+        margin-top: 30px;
+    }
+
+    .work_expeience_company {
+        margin-bottom: 0;
+    }
+
+    .duties_list {
+        margin-top: 0;
+    }
+ }
